@@ -80,7 +80,7 @@ College students can easily find others near them on campus to create a group Ub
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-<img src="wireframe.jpg" width=600>
+<img src="wireframe.jpg" width=800>
 
 ### [BONUS] Digital Wireframes & Mockups
 
