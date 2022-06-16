@@ -1,9 +1,9 @@
-# food360
+# findABuddy
 
 Original App Design Project - README Template
 ===
 
-## food ordering app for college students
+## buddy finding app
 
 ## Table of Contents
 1. [Overview]
@@ -31,21 +31,8 @@ College students can easily find others near them on campus to create a group Ub
 **Required Must-have Stories**
 
 * User can login, signup, and logout of account
-* Users will be brought to a series of pages that require them to specify these personalized parameters:
-    * 1) "How many people do you want to split with?"
-    * 2) "Which meeting locations do you prefer?"
-    * (these parameters will be used to find users compatible to them)
-* User can scroll through available restaurants to order from in a "restaurant feed"
-    * these restaurant cards must include a cover photo, name of restaurant, and the number of "likes" from users they are compatable with
-* User can double tap on a restaurant card to be brought to a modal overlay that makes them enter their order & set their "timer"
-    * "timer" specifies how long this user is willing to wait until a group order is placed.
-* User can click on the number of "likes" to view who liked the restaurant
-    * this "likes" page will show each user and their order
-        * (Bob: 20 piece chicken nuggets)
-* Users can select users from the "likes" page to create a group order
-    * this user will then be redirected to the UberEats app to create the order.
-* Users can navigate to an "orders" tab
-    * Users can view their order and the name of the person who ordered
+* Users can view their home feed screen and invitation creation screen
+* 
 
 
 **Optional Nice-to-have Stories**
