@@ -86,11 +86,35 @@ College students can easily find others near them on campus to create a group Ub
 
 ### [BONUS] Interactive Prototype
 
-## Schema 
-| Property | Type   | Description        |
-| -------- | ------ | ------------------ |
-| objectId | String | unique id for the  |
-|          |        | user post          |
+## Schema
+
+New Place:
+
+| Property | Type | Description |
+| -------- | ------ | --------------------------- |
+| objectId | String | unique id for the user post |
+| name | String | name for the user place |
+| location | JSON Object | location of the place |
+
+Invitation
+
+| Property | Type | Description |
+| -------- | ------ | --------------------------- |
+| objectId | String | unique id for the user invation |
+| author | Pointer to User | invatation author |
+| caption | String | invitation caption by author |
+| acceptedCount | Number | number of people who accepted invitation |
+| time | DateTime | date when the event will take place |
+
+User
+
+| Property | Type | Description |
+| -------- | ------ | --------------------------- |
+| objectId | String | unique id for the user |
+| username | String | user's username |
+| password | String | user's password |
+| profilePic | File | image that is the user's profile pic |
+|
 
 
 ### Models
