@@ -13,16 +13,16 @@ Original App Design Project - README Template
 
 ## Overview
 ### Description
-College students can easily find others near them on campus to create a group UberEats order with. This will help reduce the expensive delivery fees per person. Use https://developer.uber.com/docs/eats/introduction api?
+Users can broadcast a place they want to go to (ex: gym, restaurant, library) so that others can join them.
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:** Food/Social
+- **Category:** Social
 - **Mobile:** Easy access
-- **Story:** Allows college students can easily find others near them on campus to create a group ubereats order with. This will help reduce the expensive delivery fees per person.
-- **Market:** College students living on campus
-- **Habit:** Users can check app everytime they want to order food with a food delivery service, like UberEats.
-- **Scope:** UberEats
+- **Story:** Allows users to broadcast a place they want to go to so that others can join them
+- **Market:** Everyone!
+- **Habit:** Users can use app anytime they want to find a buddy to do something/go somewhere with
+- **Scope:** 
 
 ## Product Spec
 
@@ -32,37 +32,31 @@ College students can easily find others near them on campus to create a group Ub
 
 * User can login, signup, and logout of account
 * Users can view their home feed screen and invitation creation screen
-* 
-
 
 **Optional Nice-to-have Stories**
-* Restaurants with the most activity ("likes") will be bubbled up to the top of the feed
-* Users can "pin" restaurants, so the corresponding restaurant cards show first in the feed.
-* Users can also add users to their "close friends" list
-* Users can navigate to a "profile" tab
+
+* Users can view their profile
+* Users can see photos of the place
+* Users can see how far away the place is
+* Users can leave a review for the place using Yelp API
 
 ### 2. Screen Archetypes
 
 * Login/signup screen
    * user can login/signup
-* Restaurant Feed (like UberEats)
-   * User can scroll through available restaurants to order from
-* Defining preferences pages
-    * "How many people do you want to split with?" page
-    * "Which meeting locations do you prefer?" page
-* Modal overlay that requires ursers to enter their order and set a "timer"
-* Order screen
+* Home feed Screen
+* Create invitation Screen
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* Restaurant Feed
-* Orders
+* Home feed Screen
+* Create invitation Screen
 
 **Flow Navigation** (Screen to Screen)
 
-* Restaurant card -> details page that uncover the menu
+* inivitaiton fragment --> detail inivtation fragment
 
 
 ## Wireframes
