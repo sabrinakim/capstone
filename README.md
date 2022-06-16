@@ -87,6 +87,7 @@ College students can easily find others near them on campus to create a group Ub
 ### [BONUS] Interactive Prototype
 
 ## Schema
+### Models
 
 New Place:
 
@@ -117,10 +118,17 @@ User:
 | profilePic | File | image that is the user's profile pic |
 | acceptedInvitations | Array | array of invitations that the user accepted |
 
-
-### Models
-[Add table of models]
 ### Networking
-- [Add list of network requests by screen ]
+List of network requests by screen
+* Home Feed Screen
+   * (Read/GET) Query all invitations where user is author
+   * (Create/POST) Create a new invitation accept
+   * (Delete) Delete an existing invitation accept
+* Create Invitation Screen
+   * (Create/POST) Create a new invitation
+* Profile Screen
+   * (Read/GET) Query logged in user object
+   * (Update/PUT) Update user profile image
+  
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
