@@ -114,3 +114,9 @@ List of network requests by screen
   
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+Google Places SDK
+
+| HTTP Verb | Endpoint | Description
+| --------- | -------- | ------------|
+| GET | /place/details/json | gets the details of the specified place |
