@@ -62,7 +62,7 @@ Users can broadcast a place they want to go to (ex: gym, restaurant, library) so
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-<img src="findABuddyWireframe.jpg" width=1000>
+<img src="findBuddyWireframe.jpg" width=1000>
 
 ### [BONUS] Digital Wireframes & Mockups
 
