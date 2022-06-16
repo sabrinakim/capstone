@@ -82,7 +82,7 @@ Invitation:
 
 | Property | Type | Description |
 | -------- | ------ | --------------------------- |
-| objectId | String | unique id for the user invation |
+| objectId | String | unique id for the user invitation |
 | author | Pointer to User | invatation author |
 | caption | String | invitation caption by author |
 | acceptedCount | Number | number of people who accepted invitation |
