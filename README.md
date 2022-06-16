@@ -87,7 +87,12 @@ College students can easily find others near them on campus to create a group Ub
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
+| Property | Type   | Description        |
+| -------- | ------ | ------------------ |
+| objectId | String | unique id for the  |
+|          |        | user post          |
+
+
 ### Models
 [Add table of models]
 ### Networking
