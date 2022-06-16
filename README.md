@@ -96,7 +96,7 @@ New Place:
 | name | String | name for the user place |
 | location | JSON Object | location of the place |
 
-Invitation
+Invitation:
 
 | Property | Type | Description |
 | -------- | ------ | --------------------------- |
@@ -104,9 +104,10 @@ Invitation
 | author | Pointer to User | invatation author |
 | caption | String | invitation caption by author |
 | acceptedCount | Number | number of people who accepted invitation |
+| acceptedUsers | Array | array of users that accepted invitation |
 | time | DateTime | date when the event will take place |
 
-User
+User:
 
 | Property | Type | Description |
 | -------- | ------ | --------------------------- |
@@ -114,7 +115,7 @@ User
 | username | String | user's username |
 | password | String | user's password |
 | profilePic | File | image that is the user's profile pic |
-|
+| acceptedInvitations | Array | array of invitations that the user accepted |
 
 
 ### Models
