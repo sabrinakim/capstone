@@ -39,6 +39,7 @@ Users can broadcast a place they want to go to (ex: gym, restaurant, library) so
 * Users can see photos of the place
 * Users can see how far away the place is
 * Users can leave a review for the place using Yelp API
+* Users can see the invitations they accepted
 
 ### 2. Screen Archetypes
 
