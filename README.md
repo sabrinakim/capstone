@@ -91,7 +91,7 @@ Through pictures & swipes, users can easily find people to go somewhere/do somet
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-<img src="intandem_wireframe.jpg" width=1000>
+<img src="intandem_wireframe.jpeg" width=1000>
 
 ### [BONUS] Digital Wireframes & Mockups
 
