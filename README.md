@@ -151,15 +151,25 @@ User:
 
 ### Networking
 List of network requests by screen
-* Home Feed Screen
-   * (Read/GET) Query all invitations where user is author
-   * (Create/POST) Create a new invitation accept
-   * (Delete) Delete an existing invitation accept
+* Home Screen
+   * (Read/GET) Query all invitations created by the user's friends
+      * query = PFQuery("Invitation")
+        query.whereKey("author", currentUser.getFriends())
+        query.order(byDescending: "createdAt")
+        query.findObjectsInBackground(e) {
+           if e != null { 
+              System.out.println("error in fetching invitations")
+           } else if let posts = posts {
+              print("Successfully fetched invitations")
+          // TODO: Do something with posts...
+           }
+        }
+   * (Create/POST) Create a new invitation reply
 * Create Invitation Screen
    * (Create/POST) Create a new invitation
 * Profile Screen
    * (Read/GET) Query logged in user object
-   * (Update/PUT) Update user profile image
+   * (Update/PUT) Update user profile image/bio
   
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
