@@ -113,11 +113,31 @@ Invitation:
 | Property | Type | Description |
 | -------- | ------ | --------------------------- |
 | objectId | String | unique id for the user invitation |
-| author | Pointer to User | invatation author |
+| author | Pointer to User | invitation author |
+| picture | File | picture accompanying the invitation |
 | caption | String | invitation caption by author |
-| acceptedCount | Number | number of people who accepted invitation |
-| acceptedUsers | Array | array of users that accepted invitation |
-| time | DateTime | date when the event will take place |
+| location | JSON Object | location that this event will take place |
+| time | DateTime | date/time that this event will take place |
+| reviews | Pointer | pointer to review object |
+
+Reply:
+
+| Property | Type | Description |
+| -------- | ------ | --------------------------- |
+| objectId | String | unique id for the reply |
+| author | Pointer to User | author of this reply |
+| picture | File | picture for this reply |
+| message | String | message for this reply |
+| invitation | Pointer to Invitation | invitation that this reply is replying to |
+
+Review: 
+
+| Property | Type | Description |
+| -------- | ------ | --------------------------- |
+| objectId | String | unique id for the reviews |
+| invitation | Pointer to Invitation | invitation that this review corresponds to
+| Yelp reviews | ? | ? |
+| Google reviews | ? | ? |
 
 User:
 
