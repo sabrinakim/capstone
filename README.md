@@ -153,14 +153,15 @@ User:
 List of network requests by screen
 * Home Screen
    * (Read/GET) Query all invitations created by the user's friends
-      * query = PFQuery("Invitation")
+      * query = PFQuery("Invitation");
         query.whereKey("author", currentUser.getFriends())
         query.order(byDescending: "createdAt")
         query.findObjectsInBackground(e) {
            if e != null { 
-              System.out.println("error in fetching invitations")
-           } else if let posts = posts {
-              print("Successfully fetched invitations")
+              System.out.println("error in fetching invitations");
+              return;
+           } else {
+              System.out.println("Successfully fetched invitations");
           // TODO: Do something with posts...
            }
         }
