@@ -64,15 +64,15 @@ Through pictures & swipes, users can easily find people to go somewhere/do somet
 * Login/Signup screen
    * user can login/signup
 * Event invitation screen (aka Home screen)
- * Users can view the invitations they have received
+   * Users can view the invitations they have received
 * Event detail screen
- * Users can see the details of an event, including reviews of the location
+   * Users can see the details of an event, including reviews of the location
 * Invitation creation screen
- * Users can create their event invitation here to share with their friends
+   * Users can create their event invitation here to share with their friends
 * Activity screen
- * Users can view the replies they've gotten on their invitations
+   * Users can view the replies they've gotten on their invitations
 * Profile screen
- * includes profile picture and invitations they've created + replied to.
+   * includes profile picture and invitations they've created + replied to.
 
 ### 3. Navigation
 
