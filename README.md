@@ -1,9 +1,9 @@
-# intandem
+# "intandem"
 
 Original App Design Project - README Template
 ===
 
-## buddy finding app
+## Buddy Finding App
 
 ## Table of Contents
 1. [Overview]
