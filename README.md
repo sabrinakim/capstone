@@ -19,7 +19,7 @@ Through pictures & swipes, users can easily find people to go somewhere/do somet
 [Evaluation of your app across the following attributes]
 - **Category:** Social
 - **Mobile:** Easy access
-- **Story:** Allows users to easily find a "buddy" to go somewhere/do something with so they don't have to go alone.
+- **Story:** Allows users to easily find buddies to go somewhere/do something with so they don't have to go alone.
 - **Market:** Everyone!
 - **Habit:** Users can use app anytime they're bored or want to find another person to do something with.
 - **Scope:** All places
@@ -38,7 +38,7 @@ Through pictures & swipes, users can easily find people to go somewhere/do somet
     * Location: e.g. Fondren Library
     * Time/Date: e.g. right now!
     * Picture: e.g. (picture of homework at the library)
-    * Message: e.g.  "please join me at the library i'm working on comp182 hw rn T_T"
+    * Message: e.g. "please join me at the library i'm working on comp182 hw rn T_T"
 * Users can view event invitations created by their friends in their home page
   * These posted events will be accompanied by Yelp & Google reviews (combine them?)
 * Users can reply to posted event invitations by swiping up
@@ -61,26 +61,37 @@ Through pictures & swipes, users can easily find people to go somewhere/do somet
 
 ### 2. Screen Archetypes
 
-* Login/signup screen
+* Login/Signup screen
    * user can login/signup
-* Home feed Screen
-* Create invitation Screen
+* Event invitation screen (aka Home screen)
+ * Users can view the invitations they have received
+* Event detail screen
+ * Users can see the details of an event, including reviews of the location
+* Invitation creation screen
+ * Users can create their event invitation here to share with their friends
+* Activity screen
+ * Users can view the replies they've gotten on their invitations
+* Profile screen
+ * includes profile picture and invitations they've created + replied to.
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* Home feed Screen
-* Create invitation Screen
+* Event invitation screen
+* Create invitation screen
+* Activity screen
+* Profile screen
 
 **Flow Navigation** (Screen to Screen)
 
-* inivitation fragment --> detail inivtation fragment
-
+* Invitation (on Home screen) -> (tap) invitation details
+* Invitation (on Home screen) -> (swipe) replies to your friend's invitation 
+* Invitation (on Activity page) -> (tap) replies to your invtation
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-<img src="findBuddyWireframe.jpg" width=1000>
+<img src="intandem_wireframe.jpg" width=1000>
 
 ### [BONUS] Digital Wireframes & Mockups
 
