@@ -1,4 +1,4 @@
-# findABuddy
+# intandem
 
 Original App Design Project - README Template
 ===
@@ -13,16 +13,16 @@ Original App Design Project - README Template
 
 ## Overview
 ### Description
-Users can broadcast a place they want to go to (ex: gym, restaurant, library) so that others can join them.
+Through pictures & swipes, users can easily find people to go somewhere/do something with so they don't have to go alone (rather, **in tandem** with their friends).
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
 - **Category:** Social
 - **Mobile:** Easy access
-- **Story:** Allows users to broadcast a place they want to go to so that others can join them
+- **Story:** Allows users to easily find a "buddy" to go somewhere/do something with so they don't have to go alone.
 - **Market:** Everyone!
-- **Habit:** Users can use app anytime they want to find a buddy to do something/go somewhere with
-- **Scope:** 
+- **Habit:** Users can use app anytime they're bored or want to find another person to do something with.
+- **Scope:** All places
 
 ## Product Spec
 
@@ -30,16 +30,34 @@ Users can broadcast a place they want to go to (ex: gym, restaurant, library) so
 
 **Required Must-have Stories**
 
-* User can login, signup, and logout of account
-* Users can view their home feed screen and invitation creation screen
+* User can login, signup, and logout
+* Users can add friends
+  * Users can only interact with their friends on this app
+* Users can create & post event invitations so that their friends can join them if they want
+  * These posts include:
+    * Location: e.g. Fondren Library
+    * Time/Date: e.g. right now!
+    * Picture: e.g. (picture of homework at the library)
+    * Message: e.g.  "please join me at the library i'm working on comp182 hw rn T_T"
+* Users can view event invitations created by their friends in their home page
+  * These posted events will be accompanied by Yelp & Google reviews (combine them?)
+* Users can reply to posted event invitations by swiping up
+  * Replies will consist of:
+    * picture: e.g. (selfie showing excitement)
+    * message: e.g. "omg i'm doing comp182 hw rn too i will join u"
+  * Everyone who is invited to this post can see the replies
+* Users can view people's replies to the event invitation they posted
+* Users can create custom, very specific locations that are not available on the Google Places API
+  * e.g. Martel Library at Rice University
+  * these custom locations will be stored in a database
+
 
 **Optional Nice-to-have Stories**
 
-* Users can view their profile
-* Users can see photos of the place
-* Users can see how far away the place is
-* Users can leave a review for the place using Yelp API
-* Users can see the invitations they accepted
+* Users can create smaller circles among their friends
+  * e.g. "comp182 study group"; "hiking group"
+* Users can filter invitations through a series of parameters, like location and date/time.
+* Event invitations that are similar to ones that were replied to/interacted with before will be prioritized by being bubbled up to the top of the swiping queue.
 
 ### 2. Screen Archetypes
 
@@ -57,7 +75,7 @@ Users can broadcast a place they want to go to (ex: gym, restaurant, library) so
 
 **Flow Navigation** (Screen to Screen)
 
-* inivitaiton fragment --> detail inivtation fragment
+* inivitation fragment --> detail inivtation fragment
 
 
 ## Wireframes
