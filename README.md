@@ -146,8 +146,16 @@ User:
 | objectId | String | unique id for the user |
 | username | String | user's username |
 | password | String | user's password |
+| bio | String | user's bio |
 | profilePic | File | image that is the user's profile pic |
-| acceptedInvitations | Array | array of invitations that the user accepted |
+
+Friendships:
+
+| Property | Type | Description |
+| -------- | ------ | --------------------------- |
+| user1 | Pointer to User | one side of friendship |
+| user2 | Pointer to User | other end of friendship |
+
 
 ### Networking
 List of network requests by screen
